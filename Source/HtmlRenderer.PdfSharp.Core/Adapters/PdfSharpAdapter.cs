@@ -41,9 +41,6 @@ namespace TheArtOfDev.HtmlRenderer.PdfSharp.Adapters
         /// </summary>
         private PdfSharpAdapter()
         {
-            AddFontFamilyMapping("monospace", "Courier New");
-            AddFontFamilyMapping("Helvetica", "Arial");
-
            /* var families = new InstalledFontCollection();
 
             foreach (var family in families.Families)
